@@ -13,7 +13,7 @@
   </head>
   <body>
     <header>
-      <h1>Welcome to Little Taco Shop</h1>
+      <h1>Welcome to My Little Taco Shop</h1>
       <nav>
         <ul>
           <li>
@@ -22,13 +22,13 @@
             >
           </li>
           <li>
-            <a href="#menu">Our menu</a>
+            <a href="#menu">Our Menu</a>
           </li>
           <li>
-            <a href="#hours.html">Store hours</a>
+            <a href="/hours.html">Store hours</a>
           </li>
           <li>
-            <a href="#contact.html">Contact</a>
+            <a href="/contact.html">Contact</a>
           </li>
         </ul>
       </nav>
@@ -42,7 +42,86 @@
     <main>
       <!-- our content -->
       <article id="about">
-        <h2>About <abbr title="Little taco shop">LTS</abbr></h2>
+        <h2>
+          About <abbr title="Little taco shop">LTS</abbr
+          ><time datetime=""></time>
+        </h2>
+        <p>
+          <abbr title="The litle Taco Shop">LTS</abbr>
+          was founded in <time datetime="2022">2022</time> Our shop was built
+          from <strong>Love of Tacos</strong> 🌮🌮🌮 We hope our shop adds
+          unique and interesting place to our little town.
+        </p>
+        <aside>
+          <h3>Taco Trivia</h3>
+          <details>
+            <summary>when did Taco's appear in united states?</summary>
+            <p>
+              Jeffry M. Pilcher, the taco historian. Cooked the TACO and it was
+              appeared.<time datetime="1905">1905</time> (Source:
+              <cite>
+                <a
+                  href="https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/"
+                  target="_blank"
+                  >Smithsonian Magazine</a
+                > </cite
+              >)
+            </p>
+          </details>
+        </aside>
+      </article>
+      <hr />
+      <article id="menu">
+        <h2>Our Menu</h2>
+        <table>
+          <caption>
+            Our Tacos
+          </caption>
+          <thead>
+            <tr>
+              <th>Tacos type </th>
+              <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+              <th>price</th>
+            </tr>
+          </thead>
+          <tr>
+              <th scope="row" rowspan="3">Crunchy</th>
+              <td>1</td>
+              <td>$1.50</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>$2.50</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>$3.50</td>
+            </tr>
+          <tr>
+              <th scope="row" rowspan="3">Soft</th>
+              <td>1</td>
+              <td>$2.50</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>$3.80</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>$5.50</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+                <td colspan="3">
+                    Chips &amp; Salsa @ $2.00
+                </td>
+            </tr>
+          </tfoot>
+        </table>
+        <p>
+            <a style="margin-left: 85%;" href="#">Back to top</a>
+        </p>
       </article>
     </main>
     <hr />
